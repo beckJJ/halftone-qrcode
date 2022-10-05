@@ -1,0 +1,37 @@
+﻿Build started 05/10/2022 11:22:31.
+     1>Project "C:\Users\beck\Desktop\halftone-qrcode\halftone-qrcode\halftone-qrcode.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\halftone-qrcode.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(4): warning C4005: '_WIN32_WINNT' : macro redefinition
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\sdkddkver.h(197) : see previous definition of '_WIN32_WINNT'
+     1>main.cpp(5): warning C4005: 'WINVER' : macro redefinition
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\sdkddkver.h(212) : see previous definition of 'WINVER'
+     1>main.cpp(349): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\beck\desktop\halftone-qrcode\halftone-qrcode\main.cpp(495): warning C4715: 'WindowProcedure' : not all control paths return a value
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\beck\Desktop\halftone-qrcode\Debug\halftone-qrcode.exe" /NOLOGO opencv_core249d.lib opencv_highgui249d.lib opencv_imgproc249d.lib qrencoded.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\halftone-qrcode.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\beck\Desktop\halftone-qrcode\Debug\halftone-qrcode.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\beck\Desktop\halftone-qrcode\Debug\halftone-qrcode.lib" /MACHINE:X86 Debug\main.obj
+     1>qrencoded.lib(bitstream.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'qrencoded.lib(bitstream.obj)' or at 'C:\Users\beck\Desktop\halftone-qrcode\Debug\vc100.pdb'; linking object as if no debug info
+     1>qrencoded.lib(mask.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'qrencoded.lib(mask.obj)' or at 'C:\Users\beck\Desktop\halftone-qrcode\Debug\vc100.pdb'; linking object as if no debug info
+     1>qrencoded.lib(mmask.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'qrencoded.lib(mmask.obj)' or at 'C:\Users\beck\Desktop\halftone-qrcode\Debug\vc100.pdb'; linking object as if no debug info
+     1>qrencoded.lib(mqrspec.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'qrencoded.lib(mqrspec.obj)' or at 'C:\Users\beck\Desktop\halftone-qrcode\Debug\vc100.pdb'; linking object as if no debug info
+     1>qrencoded.lib(qrencode.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'qrencoded.lib(qrencode.obj)' or at 'C:\Users\beck\Desktop\halftone-qrcode\Debug\vc100.pdb'; linking object as if no debug info
+     1>qrencoded.lib(qrFlag.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'qrencoded.lib(qrFlag.obj)' or at 'C:\Users\beck\Desktop\halftone-qrcode\Debug\vc100.pdb'; linking object as if no debug info
+     1>qrencoded.lib(qrinput.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'qrencoded.lib(qrinput.obj)' or at 'C:\Users\beck\Desktop\halftone-qrcode\Debug\vc100.pdb'; linking object as if no debug info
+     1>qrencoded.lib(qrspec.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'qrencoded.lib(qrspec.obj)' or at 'C:\Users\beck\Desktop\halftone-qrcode\Debug\vc100.pdb'; linking object as if no debug info
+     1>qrencoded.lib(rscode.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'qrencoded.lib(rscode.obj)' or at 'C:\Users\beck\Desktop\halftone-qrcode\Debug\vc100.pdb'; linking object as if no debug info
+     1>qrencoded.lib(split.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'qrencoded.lib(split.obj)' or at 'C:\Users\beck\Desktop\halftone-qrcode\Debug\vc100.pdb'; linking object as if no debug info
+         halftone-qrcode.vcxproj -> C:\Users\beck\Desktop\halftone-qrcode\Debug\halftone-qrcode.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\beck\Desktop\halftone-qrcode\Debug\halftone-qrcode.exe;#1" /manifest "Debug\halftone-qrcode.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\halftone-qrcode.unsuccessfulbuild".
+         Touching "Debug\halftone-qrcode.lastbuildstate".
+     1>Done Building Project "C:\Users\beck\Desktop\halftone-qrcode\halftone-qrcode\halftone-qrcode.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.38
